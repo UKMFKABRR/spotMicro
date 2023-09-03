@@ -55,14 +55,6 @@ sudo apt install ros-noetic-joy
 sudo apt install ros-noetic-hector-slam
 
 ```
-### VERSION CHECKOUT AND SETUP
-
-Note that this repo utilizes two git submodules, which require additional steps to check out. After checking out the main repo, checkout the submodules via:
-
-```
-git submodule update --init --recursive
-git submodule update --recursive
-```
 
 #### ROSI2C
 
@@ -79,9 +71,14 @@ extern "C" {
 	#include <i2c/smbus.h>
 }
 ```
-
+##### Compile with catkin_tools
+```
+cd ~/mobile_ws
+catkin_make -DCMAKE_BUILD_TYPE=Release
+```
 
 ##### ADD ubuntu user to i2c group 
+(depends to username you used)
 ```
 sudo usermod -a -G i2c ubuntu
 logout
