@@ -26,8 +26,11 @@ sudo apt install ros-noetic-ros-base
 ```
 ##### Installed directory:
 mkdir mobile_ws
+```
 cd mobile_ws
+```
 mkdir src
+```
 git clone https://github.com/UKMFKABRR/spotMicro
 
 ##### Additional packages
