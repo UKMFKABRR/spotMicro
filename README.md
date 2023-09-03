@@ -76,6 +76,40 @@ extern "C" {
 cd ~/mobile_ws
 catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
+##### Compile results
+```
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_ServoConfigArray
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_DriveMode
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_PositionArray
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_StopServos
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_Position
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_Servo
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_ServosConfig
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_ServoArray
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_ServoConfig
+[  0%] Built target _i2cpwm_board_generate_messages_check_deps_IntValue
+[  0%] Built target std_msgs_generate_messages_lisp
+[  5%] Built target spot_micro_kinematics
+[  7%] Built target gtest
+[ 20%] Built target i2cpwm_board_generate_messages_cpp
+[ 35%] Built target i2cpwm_board_generate_messages_py
+[ 61%] Built target i2cpwm_board_generate_messages_nodejs
+[ 61%] Built target i2cpwm_board_generate_messages_eus
+[ 73%] Built target i2cpwm_board_generate_messages_lisp
+[ 76%] Built target gtest_main
+[ 85%] Built target smfsm
+[ 87%] Built target i2cpwm_board
+[ 87%] Built target i2cpwm_board_generate_messages
+[ 90%] Built target test_spot_micro_leg
+[ 92%] Built target test_spot_micro_kinematics
+[ 95%] Built target test_utils
+[100%] Built target spot_micro_motion_cmd_node
+
+```
 
 ##### ADD ubuntu user to i2c group 
 (depends to username you used)
