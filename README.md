@@ -32,6 +32,19 @@ mkdir src
 cd src
 git clone https://github.com/UKMFKABRR/spotMicro
 ```
+
+
+mobile_ws/
+│
+├── src/
+	│   spotMicro
+		├── spot_micro_motion_cmd
+│   	 		└── ...
+│  		├── spot_micro_keyboard_cmd
+│   	│   		└── ...  
+│   		└── ...
+
+
 ##### Additional packages
 ```
 sudo apt install python3-catkin python3-catkin-pkg python3-catkin-pkg-modules python3-catkin-tools
