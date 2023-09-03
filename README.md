@@ -58,7 +58,7 @@ sudo apt install ros-noetic-hector-slam
 
 #### ROSI2C
 
-##### Some change before compile 
+##### Some change before compile (NO NEED TO DO THIS)
 
 Add i2c into line 22 of src/ros-i2cpwmboard/CMakeLists.txt, so that it looks like:
 ```
