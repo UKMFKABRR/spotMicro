@@ -38,7 +38,7 @@ mobile_ws/
 │
 ├── src/
 	│   spotMicro
-		├── spot_micro_motion_cmd
+│		├── spot_micro_motion_cmd
 │   	 		└── ...
 │  		├── spot_micro_keyboard_cmd
 │   	│   		└── ...  
