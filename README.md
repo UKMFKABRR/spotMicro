@@ -25,14 +25,13 @@ sudo apt install ros-noetic-ros-base
 
 ```
 ##### Installed directory:
+```
 mkdir mobile_ws
-```
 cd mobile_ws
-```
 mkdir src
-```
+cd src
 git clone https://github.com/UKMFKABRR/spotMicro
-
+```
 ##### Additional packages
 ```
 sudo apt install python3-catkin python3-catkin-pkg python3-catkin-pkg-modules python3-catkin-tools
