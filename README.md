@@ -13,7 +13,6 @@ ___________________________
 Version for UBUNTU 20.4 and ROS NOETIC, both of them LTS version, **with support until 2025**.
 Furthermore, NOETIC uses python 3 by default, once python 2.7 is deprecated.
 
-It is **100% functional**, resulting faster and with long term support, also it will make much easer migrate to ROS 2 (ros-bridge), if it is the choice.
 
 **UBUNTU 20.4 64 bits (desktop / raspberry pi (server version))**
 
@@ -25,7 +24,11 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
 sudo apt install ros-noetic-ros-base
 
 ```
-
+Installed directory:
+mkdir mobile_ws
+cd mobile_ws
+mkdir src
+git clone https://github.com/UKMFKABRR/spotMicro
 
 ##### Additional packages
 ```
