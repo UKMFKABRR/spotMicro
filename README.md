@@ -33,7 +33,7 @@ cd src
 git clone https://github.com/UKMFKABRR/spotMicro
 ```
 
-
+```
 mobile_ws/
 │
 ├── src/
@@ -43,7 +43,7 @@ mobile_ws/
 │  		├── spot_micro_keyboard_cmd
 │   	│   		└── ...  
 │   		└── ...
-
+```
 
 ##### Additional packages
 ```
