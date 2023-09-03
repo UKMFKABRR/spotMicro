@@ -1,6 +1,11 @@
 # Spot Micro Quadruped Project
 Great work @mike4192
 
+Modified from:
+https://github.com/mike4192/spotMicro
+
+
+
 This is a fork of the original @mike4192 project, upgraded to work will ROS NOETIC and UBUNTU 20.04
 ___________________________
 ##  NOETIC version
